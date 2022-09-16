@@ -1,3 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: blue;
+}
+
+.header {
+    border: 2px solid black;
+    padding: 40px;
+
+    background-image: url("images/sunrise.jpg");
+    background-position: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    float: left;
+    height: 100vh;
+    width: 10%;
+
+    background-color: red;
+
+    border-right: 10px solid white;
+}
+
+.nav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.nav a{
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-right: 1px solid black;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.dropdown-1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+}
+
+.dropdown-2 {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+}
+
+.dropdown-3 {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(219, 219, 219);
+}
+
+.dropdown-content-1 {
+   display: none;
+}
+
+.dropdown-content-1 a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.dropdown-content-2 {
+    display: none;
+ }
+
+ .dropdown-content-2 a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: grey;
+}
+
+ .dropdown-content-3 {
+    display: none;
+ }
+
+ .dropdown-content-3 a {
+    display:block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: grey;
+}
+
+ .dropdown-container-1:hover .dropdown-content-1 {
+    display: block;
+ }
+
+ .dropdown-container-2:hover .dropdown-content-2 {
+    display: block;
+ }
+
+ .dropdown-container-3:hover .dropdown-content-3 {
+    display: block;
+ }
+
+
+
+.main {
+    float: left;
+    height: 100vh;
+    width: 90%;
+    background-image: url("images/alliance-2.jpg");
+    padding: 40px;
+
+}
+
+.main-content {
+    margin: 30px;
+    background-color: grey;
+    height: 100%;
+    overflow: auto;
+}
+
 h1 {
     text-align: center;
+    font-size: 60px;
+    margin: auto;
+
+    color: red;
+    text-shadow: 5px 5px 5px black;
 }
+
+h2 {
+    margin: 10px;
+
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+
+    background-color: blue;
+    color: white;
+
+
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 620px){
+    nav, .main, aside {
+         width: 100%;
+         height: auto;
+         position: relative;
+         
+     }
+ }
