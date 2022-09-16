@@ -41,19 +41,27 @@ body {
     border: 2px solid black;
 }
 
+.nav a{
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+
 .dropdown-1 {
     width: 100%;
     padding: 10px;
+    font-size: 15px;
 }
 
 .dropdown-2 {
     width: 100%;
     padding: 10px;
+    font-size: 15px;
 }
 
 .dropdown-3 {
     width: 100%;
     padding: 10px;
+    font-size: 15px;
 }
 
 .dropdown-content-1 {
@@ -106,6 +114,10 @@ body {
     width: 90%;
 
     border: 2px solid black;
+}
+
+.main-content {
+    margin: 30px;
 }
 
 h1 {
