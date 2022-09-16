@@ -64,6 +64,7 @@ body {
     color: black;
     text-decoration: none;
     text-transform: capitalize;
+    border-right: 1px solid black;
 }
 
 .nav a:hover {
@@ -75,18 +76,21 @@ body {
     width: 100%;
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(219, 219, 219);
 }
 
 .dropdown-2 {
     width: 100%;
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(219, 219, 219);
 }
 
 .dropdown-3 {
     width: 100%;
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(219, 219, 219);
 }
 
 .dropdown-content-1 {
@@ -97,6 +101,7 @@ body {
     display:block;
     padding: 5px;
     text-decoration: none;
+    background-color: grey;
 }
 
 .dropdown-content-2 {
@@ -107,6 +112,7 @@ body {
     display:block;
     padding: 5px;
     text-decoration: none;
+    background-color: grey;
 }
 
  .dropdown-content-3 {
@@ -117,6 +123,7 @@ body {
     display:block;
     padding: 5px;
     text-decoration: none;
+    background-color: grey;
 }
 
  .dropdown-container-1:hover .dropdown-content-1 {
@@ -138,13 +145,13 @@ body {
     height: 100vh;
     width: 90%;
     background-image: url("images/alliance-2.jpg");
-    padding: 50px;
+    padding: 40px;
 
 }
 
 .main-content {
     margin: 30px;
-    background-color: white;
+    background-color: grey;
     height: 100%;
     overflow: auto;
 }
@@ -158,17 +165,29 @@ h1 {
     text-shadow: 5px 5px 5px black;
 }
 
-.footer{
+h2 {
+    margin: 10px;
+
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
     clear: both;
     width: 100%;
 
-    background-color: gray;
+    background-color: blue;
     color: white;
 
 
     text-align: center;
     padding: 20px;
 
+}
+
+.footer p {
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 620px){
