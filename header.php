@@ -28,9 +28,11 @@
                 wp_nav_menu(
 
                     array(
-                        
-                        'theme_location' => 'header-menu',
-                        'container_class' => 'top-nav'
+
+                       'theme_location' => 'side-menu',
+                        'container_class' => 'side-nav'
+
+                    
                     )
 
 

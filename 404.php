@@ -2,10 +2,12 @@
 
 <div class="content">
 
-<h1>Error: Page not found.</h1>
+<div class="main-content">
+
+<h2>Error: Page not found.</h2>
 
 
-
+</div>
 
 </div>
 
