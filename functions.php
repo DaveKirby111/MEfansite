@@ -5,7 +5,7 @@
 /** load stylesheets */
    function ME_styles() {
 
-    wp_enqueue_style('theme-style', get_template_directory_uri() . "/style.css", array(), '1.6');
+    wp_enqueue_style('theme-style', get_template_directory_uri() . "/style.css", array(), '1.4');
 
    }
 
