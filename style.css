@@ -139,6 +139,9 @@ h2 {
     font-size: 30px;
 }
 
+figcaption {
+    font-size: 10px;
+}
 
 .footer {
     clear: both;
