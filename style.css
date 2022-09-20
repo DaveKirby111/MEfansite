@@ -113,6 +113,11 @@ body {
     overflow: auto;
 }
 
+.inner-content {
+
+    margin: 15px;
+}
+
 h1 {
     text-align: center;
     font-size: 60px;
@@ -133,6 +138,7 @@ h2 {
     text-align: center;
     font-size: 30px;
 }
+
 
 .footer {
     clear: both;
