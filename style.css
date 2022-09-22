@@ -78,6 +78,8 @@ body {
 #menu-main a:hover {
     background-color :blue;
     color: white;
+    border-top: 8px solid white;
+    border-bottom: 8px solid white;
 }
 
 #menu-main .sub-menu li {
