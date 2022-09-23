@@ -117,7 +117,7 @@ body {
 
 .inner-content {
 
-    margin: 20px;
+    margin: 70px;
 }
 
 h1 {
@@ -164,10 +164,11 @@ figcaption {
 }
 
 @media only screen and (max-width: 620px){
-    nav, .main, aside {
+    nav, .content, aside, .main-content {
          width: 100%;
          height: auto;
          position: relative;
+         margin: 0;
          
      }
  }
